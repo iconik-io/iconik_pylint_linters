@@ -19,5 +19,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    pylint='>=2.3.1'
+    pylint='>=2.3.1',
+    zip_safe=False
 )
