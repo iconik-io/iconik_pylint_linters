@@ -16,15 +16,6 @@ class MultipleNamesOnImportFromChecker(BaseChecker):
             'All names imported should be as separate statements.'
         ),
     }
-    options = (
-        (
-            'ignore-ints',
-            {
-                'default': False, 'type': 'yn', 'metavar': '<y_or_n>',
-                'help': 'Allow having multiple names on one import from statement',
-            }
-        ),
-    )
 
     def visit_importfrom(self, node):
         if len(node.names) > 1:
