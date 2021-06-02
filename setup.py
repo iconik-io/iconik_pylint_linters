@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="cantemo_pylint_linters",
+    name="iconik_pylint_linters",
     version="0.0.1",
     author="Konstantin Hantsov",
-    author_email="hantsov@cantemo.com",
-    description="A package that contains Cantemo linters fof pylint",
+    author_email="hantsov@iconik.io",
+    description="A package that contains iconik linters for pylint",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://review.cantemo.com/source/cantemo_pylint_linters/",
+    url="https://github.com/iconik-io/iconik_pylint_linters",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

@@ -1,1 +1,1 @@
-cantemo_pylint_linters
+iconik_pylint_linters

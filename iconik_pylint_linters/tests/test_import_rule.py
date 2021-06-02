@@ -1,6 +1,6 @@
 import astroid
 import pylint.testutils
-from cantemo_pylint_linters.linters.import_rule import MultipleNamesOnImportFromChecker
+from iconik_pylint_linters.linters.import_rule import MultipleNamesOnImportFromChecker
 
 class TestMultipleNamesOnImportFromChecker(pylint.testutils.CheckerTestCase):
     CHECKER_CLASS = MultipleNamesOnImportFromChecker
